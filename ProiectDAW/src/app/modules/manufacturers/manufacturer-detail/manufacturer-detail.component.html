@@ -1,0 +1,13 @@
+<div *ngIf="selectedMan">
+    <h2>{{selectedMan.name}}</h2>
+    <div><span>id: </span>{{selectedMan.id}}</div>
+    <div><span>country: </span>{{selectedMan.country | uppercase}}</div>
+    <div>
+    <label for="manufacturer-name">Manufacturer name: </label>
+    <input id="manufacturer-name" [(ngModel)]="selectedMan.name" placeholder="name">
+    <input id="manufacturer-name" [(ngModel)]="selectedMan.country" placeholder="name">
+    </div>
+    <button (click)="save()">save</button>
+</div>
+
+<button (click)="goBack()">go back</button>

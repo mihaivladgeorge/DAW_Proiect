@@ -1,0 +1,9 @@
+.message-comp {
+    position:absolute;
+    bottom: 10px;
+    background-color: #353131;
+    color: #e6dada;
+    border-radius: 10px;
+    opacity: 50%;
+    width: 25%;
+}

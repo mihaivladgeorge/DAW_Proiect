@@ -1,0 +1,14 @@
+D:\Facultate\DAW\Proiect\ProiectDAW.BLL\bin\Debug\net5.0\ProiectDAW.BLL.deps.json
+D:\Facultate\DAW\Proiect\ProiectDAW.BLL\bin\Debug\net5.0\ProiectDAW.BLL.dll
+D:\Facultate\DAW\Proiect\ProiectDAW.BLL\bin\Debug\net5.0\ref\ProiectDAW.BLL.dll
+D:\Facultate\DAW\Proiect\ProiectDAW.BLL\bin\Debug\net5.0\ProiectDAW.BLL.pdb
+D:\Facultate\DAW\Proiect\ProiectDAW.BLL\bin\Debug\net5.0\ProiectDAW.DAL.dll
+D:\Facultate\DAW\Proiect\ProiectDAW.BLL\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+D:\Facultate\DAW\Proiect\ProiectDAW.BLL\obj\Debug\net5.0\ProiectDAW.BLL.csproj.AssemblyReference.cache
+D:\Facultate\DAW\Proiect\ProiectDAW.BLL\obj\Debug\net5.0\ProiectDAW.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\DAW\Proiect\ProiectDAW.BLL\obj\Debug\net5.0\ProiectDAW.BLL.AssemblyInfoInputs.cache
+D:\Facultate\DAW\Proiect\ProiectDAW.BLL\obj\Debug\net5.0\ProiectDAW.BLL.AssemblyInfo.cs
+D:\Facultate\DAW\Proiect\ProiectDAW.BLL\obj\Debug\net5.0\ProiectDAW.BLL.csproj.CoreCompileInputs.cache
+D:\Facultate\DAW\Proiect\ProiectDAW.BLL\obj\Debug\net5.0\ProiectDAW.BLL.dll
+D:\Facultate\DAW\Proiect\ProiectDAW.BLL\obj\Debug\net5.0\ref\ProiectDAW.BLL.dll
+D:\Facultate\DAW\Proiect\ProiectDAW.BLL\obj\Debug\net5.0\ProiectDAW.BLL.pdb

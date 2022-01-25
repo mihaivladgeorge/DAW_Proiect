@@ -1,0 +1,12 @@
+<h2> Login </h2>
+<form [formGroup] = "loginForm" (ngSubmit) = "onLogin()">
+    <p class="label">Username(email)</p>
+    <input formControlName = "email" placeholder="Username" type="text">
+    <p class="label">Password</p>
+    <input formControlName = "password" placeholder="Password" type="password">
+    <button type="submit">Login</button> 
+</form>
+
+<div>
+    <a routerLink="/register">If you don't have an account you can register here</a>
+</div>

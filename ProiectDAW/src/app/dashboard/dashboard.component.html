@@ -1,0 +1,12 @@
+<button id="logout" (click)="OnLogout()">Logout</button>
+
+<h2>Some of the manufacturers we provide:</h2>
+<div class="container">
+  <div class="manufacturers-menu">
+  <a *ngFor="let manufacturer of manufacturers"
+    routerLink="/manufacturer-detail/{{manufacturer.id}}">
+    {{manufacturer.name}}
+  </a>
+  </div>
+</div>
+<h2>Login for a lot more information!</h2>

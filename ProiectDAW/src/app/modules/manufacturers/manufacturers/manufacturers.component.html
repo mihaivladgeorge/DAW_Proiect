@@ -1,0 +1,24 @@
+<h2>Manufacturers</h2>
+
+<ul class="manufacturers">
+    <li *ngFor="let manufacturer of manufacturers">
+        <a routerLink="/manufacturer-detail/{{manufacturer.id}}">
+            <span class="badge">{{manufacturer.id}}</span> {{manufacturer.name | lowercase}}
+        </a>
+        <button class="delete" title="delete"
+        (click)="delete(manufacturer)">x</button>
+    </li>
+</ul>
+
+<div>
+    <h2>Add a new manufacturer</h2>
+    <label for="new-manufacturer">Manufacturer name: </label>
+    <input id="new-manufacturer" #manufacturerName />
+    <label for="new-manufacturer">Country name: </label>
+    <input id="new-manufacturer" #manufacturerCountry />
+  
+    <!-- (click) passes input value to add() and then clears the input -->
+    <button class="add-button" (click)="add(manufacturerName.value, manufacturerCountry.value); manufacturerName.value=''; manufacturerCountry.value='';">
+      Add manufacturer
+    </button>
+  </div>
