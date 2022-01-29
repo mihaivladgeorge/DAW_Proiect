@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Facultate\\DAW\\Proiect\\ProiectDAW.DAL\\ProiectDAW.DAL.csproj": {}
+    "D:\\Facultate\\DAW\\DAW_Proiect\\Proiect\\ProiectDAW.DAL\\ProiectDAW.DAL.csproj": {}
   },
   "projects": {
-    "D:\\Facultate\\DAW\\Proiect\\ProiectDAW.DAL\\ProiectDAW.DAL.csproj": {
+    "D:\\Facultate\\DAW\\DAW_Proiect\\Proiect\\ProiectDAW.DAL\\ProiectDAW.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Facultate\\DAW\\Proiect\\ProiectDAW.DAL\\ProiectDAW.DAL.csproj",
+        "projectUniqueName": "D:\\Facultate\\DAW\\DAW_Proiect\\Proiect\\ProiectDAW.DAL\\ProiectDAW.DAL.csproj",
         "projectName": "ProiectDAW.DAL",
-        "projectPath": "D:\\Facultate\\DAW\\Proiect\\ProiectDAW.DAL\\ProiectDAW.DAL.csproj",
+        "projectPath": "D:\\Facultate\\DAW\\DAW_Proiect\\Proiect\\ProiectDAW.DAL\\ProiectDAW.DAL.csproj",
         "packagesPath": "C:\\Users\\vlast\\.nuget\\packages\\",
-        "outputPath": "D:\\Facultate\\DAW\\Proiect\\ProiectDAW.DAL\\obj\\",
+        "outputPath": "D:\\Facultate\\DAW\\DAW_Proiect\\Proiect\\ProiectDAW.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vlast\\AppData\\Roaming\\NuGet\\NuGet.Config",

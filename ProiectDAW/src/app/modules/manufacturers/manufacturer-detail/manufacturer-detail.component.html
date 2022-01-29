@@ -1,13 +1,17 @@
 <div *ngIf="selectedMan">
     <h2>{{selectedMan.name}}</h2>
-    <div><span>id: </span>{{selectedMan.id}}</div>
+    <div>{{selectedMan.id | idpipe}}</div>
     <div><span>country: </span>{{selectedMan.country | uppercase}}</div>
     <div>
-    <label for="manufacturer-name">Manufacturer name: </label>
-    <input id="manufacturer-name" [(ngModel)]="selectedMan.name" placeholder="name">
-    <input id="manufacturer-name" [(ngModel)]="selectedMan.country" placeholder="name">
+    <form [formGroup] = "mDetailsForm" (ngSubmit) = "save()">
+        <p class="label">Manufacturer Name</p>
+        <input formControlName = "manufacturerName" [(ngModel)]="selectedMan.name" placeholder="Type here" type="text">
+        <p class="label">Password</p>
+        <input formControlName = "countryName" [(ngModel)]="selectedMan.country" placeholder="Type here" type="text">
+        <br>
+        <button type="submit">Save Changes</button>
+    </form>
     </div>
-    <button (click)="save()">save</button>
 </div>
 
 <button (click)="goBack()">go back</button>

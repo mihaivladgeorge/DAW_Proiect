@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6kScU/4FGOO2n9+tgShceeEOp05RjqvTaslXaW9mKbeXxauy5/nkvz5KECbU6CqORSAGUMa5PCkHTe7MB6Cz+A==",
+  "dgSpecHash": "3exGmmSwgtDuIFVsr0qayTwLgRDuETa/QwSCv6YxmOKzOFXWz9XqJKVI7aGlxEVBuEYRTTh4RShSgnTDWkMyDw==",
   "success": true,
-  "projectFilePath": "D:\\Facultate\\DAW\\Proiect\\ProiectDAW.BLL\\ProiectDAW.BLL.csproj",
+  "projectFilePath": "D:\\Facultate\\DAW\\DAW_Proiect\\Proiect\\ProiectDAW.BLL\\ProiectDAW.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vlast\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.11\\microsoft.aspnetcore.authentication.jwtbearer.5.0.11.nupkg.sha512",
     "C:\\Users\\vlast\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.11\\microsoft.aspnetcore.cryptography.internal.5.0.11.nupkg.sha512",

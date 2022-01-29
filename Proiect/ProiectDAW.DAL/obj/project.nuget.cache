@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0QVxeJ9WkRZI7oCLsWn8PLfaKs/ZU7TrgfVo6Z/+WqpVLITh1mhSZ/LtVv8tZhVBiqUV7VnUT6kpcvO9tJb0Ew==",
+  "dgSpecHash": "rG6X1ldNiwgLLhIdcVATbu/XuupJOKMRmnzq7I/kB6VsRLSVMuKh+jHkWtvkKacH55tlpNIbjGX9DGHocMjgWg==",
   "success": true,
-  "projectFilePath": "D:\\Facultate\\DAW\\Proiect\\ProiectDAW.DAL\\ProiectDAW.DAL.csproj",
+  "projectFilePath": "D:\\Facultate\\DAW\\DAW_Proiect\\Proiect\\ProiectDAW.DAL\\ProiectDAW.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vlast\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vlast\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.11\\microsoft.aspnetcore.authentication.jwtbearer.5.0.11.nupkg.sha512",

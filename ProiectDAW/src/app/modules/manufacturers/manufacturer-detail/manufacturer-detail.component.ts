@@ -4,6 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
 import { ManufacturerService } from '../../../manufacturer.service';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-manufacturer-detail',
@@ -16,12 +17,18 @@ export class ManufacturerDetailComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private manufacturerService: ManufacturerService,
-    private location: Location
+    private location: Location,
+    private formBuilder: FormBuilder
   ) { }
 
   ngOnInit(): void {
     this.getManufacturer();
   }
+
+  mDetailsForm = this.formBuilder.group({
+    manufacturerName : [''],
+    countryName: ['']
+  });
 
   getManufacturer(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));

@@ -14,6 +14,9 @@ import { JwtModule } from '@auth0/angular-jwt';
 import { RegisterComponent } from './modules/auth/register/register.component';
 
 import { AuthModule } from './modules/auth/auth.module';
+import { ManufacPipe } from './manufac.pipe';
+import { DashDirective } from './dash.directive';
+import { IdpipePipe } from './idpipe.pipe';
 
 @NgModule({
   declarations: [
@@ -24,6 +27,9 @@ import { AuthModule } from './modules/auth/auth.module';
     MessagesComponent,
     DashboardComponent,
     LoginComponent,
+    ManufacPipe,
+    DashDirective,
+    IdpipePipe,
   ],
   imports: [
     BrowserModule,

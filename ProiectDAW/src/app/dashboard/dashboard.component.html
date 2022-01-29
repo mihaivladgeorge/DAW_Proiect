@@ -1,8 +1,8 @@
-<button id="logout" (click)="OnLogout()">Logout</button>
+<button appDash id="logout" (click)="OnLogout()">Logout</button>
 
 <h2>Some of the manufacturers we provide:</h2>
 <div class="container">
-  <div class="manufacturers-menu">
+  <div appDash class="manufacturers-menu">
   <a *ngFor="let manufacturer of manufacturers"
     routerLink="/manufacturer-detail/{{manufacturer.id}}">
     {{manufacturer.name}}
